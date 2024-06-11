@@ -1,6 +1,7 @@
 const Triangle = require('../lib/triangle');
 
 describe('Triangle', () => {
+    // Test the render method
     describe('Render Method', () => {
         it('should return <polygon points="150, 18 244, 182 56, 182" fill="blue"/>', () => {
             const triangle = new Triangle();
@@ -9,6 +10,7 @@ describe('Triangle', () => {
             expect(triangle.render()).toBe(result);
         })
     })
+    // Test the setColor method
     describe('setColor Method', () => {
         it('should return set color to red', () => {
             const triangle = new Triangle();

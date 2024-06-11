@@ -1,6 +1,7 @@
 const CLI = require('../lib/cli');
 
 describe('CLI', () => {
+    // Tests the logic of error handling when it comes to length
     describe('Length Error Handling', () => {
         it('should return true', () => {
             const cli = new CLI();
@@ -14,6 +15,8 @@ describe('CLI', () => {
             expect(cli.checkLength(text)).toBe(result);
         })
     })
+
+    // Tests the logic of the color validator method 
     describe('checkValidColor Method', () => {
         it('should return true', () => {
             const cli = new CLI();

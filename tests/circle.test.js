@@ -1,6 +1,7 @@
 const Circle = require('../lib/circle');
 
 describe('Circle', () => {
+    // Tests the render method
     describe('Render Method', () => {
         it('should return <circle cx="150" cy="100" r="80" fill="blue"/>', () => {
             const circle = new Circle();
@@ -9,6 +10,7 @@ describe('Circle', () => {
             expect(circle.render()).toBe(result);
         })
     })
+    // Tests the setColor Method
     describe('setColor Method', () => {
         it('should return set color to red', () => {
             const circle = new Circle();
