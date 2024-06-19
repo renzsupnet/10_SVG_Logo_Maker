@@ -21,6 +21,8 @@
   ## Usage
 
     A series of questions must be answered such as the color of the logo, the color of the text, the kind of shape, and the letters.
+    A video walkthrough is also available below.
+  [VIDEO WALKTHROUGH](https://youtu.be/1vyHbKHaj8k?feature=shared)
 
   ## Screenshot
     A screenshot of passing test suites powered by jest
